@@ -106,4 +106,13 @@ fun KartuMahasiswa(
     warna: Int,
     warnaTeksAlamat: Int,
     fontKursif: Boolean = false
-)
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(bottom = 9.dp),
+        shape = RoundedCornerShape(10.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(warna)
+        )
+    )
