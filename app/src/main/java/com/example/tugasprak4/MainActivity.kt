@@ -14,3 +14,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
+        setContent {
+            TugasPrak4Theme {
+                AktivitasPertama(
+                    modifier = Modifier.fillMaxSize()
+                )
+            }
+        }
+    }
+}
