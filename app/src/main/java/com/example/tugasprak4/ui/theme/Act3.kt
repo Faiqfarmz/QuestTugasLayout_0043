@@ -49,3 +49,5 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
 
+        Spacer(modifier = Modifier.height(18.dp))
+
