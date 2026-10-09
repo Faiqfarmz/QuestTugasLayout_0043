@@ -61,3 +61,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             fontKursif = true
         )
 
+        // Card 2: Gibran Fathoni
+        KartuMahasiswa(
+            nama = R.string.nama_2,
+            telepon = R.string.telepon_2,
+            alamat = R.string.alamat_2,
+            warna = R.color.card_2_bg,
+            warnaTeksAlamat = R.color.text_yellow
+        )
+
