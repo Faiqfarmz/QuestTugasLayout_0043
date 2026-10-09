@@ -129,3 +129,5 @@ fun KartuMahasiswa(
                 modifier = Modifier.size(52.dp)
             )
 
+            Spacer(modifier = Modifier.width(9.dp))
+
