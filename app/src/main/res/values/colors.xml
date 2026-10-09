@@ -7,5 +7,6 @@
 
     <!-- Warna card mahasiswa -->
     <color name="card_1_bg">#595757</color>
+    <color name="card_2_bg">#703BCB</color>
 
 </resources>
