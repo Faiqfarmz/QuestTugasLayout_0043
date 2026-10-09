@@ -70,3 +70,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             warnaTeksAlamat = R.color.text_yellow
         )
 
+        // Card 3: Zhilal Fadhilah
+        KartuMahasiswa(
+            nama = R.string.nama_3,
+            telepon = R.string.telepon_3,
+            alamat = R.string.alamat_3,
+            warna = R.color.card_3_bg,
+            warnaTeksAlamat = R.color.text_white
+        )
+
