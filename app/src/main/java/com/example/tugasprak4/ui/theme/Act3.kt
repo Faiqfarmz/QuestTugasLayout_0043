@@ -88,3 +88,5 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             warnaTeksAlamat = R.color.text_white
         )
 
+        Spacer(modifier = Modifier.weight(1f))
+
