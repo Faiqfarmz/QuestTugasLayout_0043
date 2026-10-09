@@ -90,3 +90,11 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.weight(1f))
 
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = 10.sp,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+    }
+}
+
