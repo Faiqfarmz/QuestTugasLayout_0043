@@ -133,4 +133,20 @@ fun KartuMahasiswa(
 
             Column(
                 modifier = Modifier.weight(1f)
-            )
+            ){
+                Text(
+                    text = stringResource(nama),
+                    fontSize = 15.sp,
+                    fontWeight = if (fontKursif) {
+                        FontWeight.Normal
+                    } else {
+                        FontWeight.Bold
+                    },
+                    fontFamily = if (fontKursif) {
+                        FontFamily.Cursive
+                    } else {
+                        FontFamily.Default
+                    },
+                    color = colorResource(R.color.text_white)
+                )
+
