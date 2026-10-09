@@ -156,3 +156,10 @@ fun KartuMahasiswa(
                     color = colorResource(R.color.text_cyan)
                 )
 
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = 10.sp,
+                    color = colorResource(warnaTeksAlamat)
+                )
+            }
+
