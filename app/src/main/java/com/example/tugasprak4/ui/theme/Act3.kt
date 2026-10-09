@@ -51,3 +51,13 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(18.dp))
 
+        // Card 1: Bambang Sumantri
+        KartuMahasiswa(
+            nama = R.string.nama_1,
+            telepon = R.string.telepon_1,
+            alamat = R.string.alamat_1,
+            warna = R.color.card_1_bg,
+            warnaTeksAlamat = R.color.text_yellow,
+            fontKursif = true
+        )
+
