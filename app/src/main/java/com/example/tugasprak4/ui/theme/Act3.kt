@@ -98,3 +98,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun KartuMahasiswa(
+    nama: Int,
+    telepon: Int,
+    alamat: Int,
+    warna: Int,
+    warnaTeksAlamat: Int,
+    fontKursif: Boolean = false
+)
